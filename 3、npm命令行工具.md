@@ -46,7 +46,7 @@ https://www.npmjs.com
 ```
 npm -i mime [-g]
 ```
-```
+```js
  //引入模块
  var mime = require("mime");
  //判断文件类型
