@@ -1,7 +1,7 @@
 ### node内置模块
 
 > ### os系统模块
-```
+```js
 var os = require("os");
 
 换行：os.EOL
@@ -14,7 +14,7 @@ var os = require("os");
 
 
 > ### path路径模块
-```
+```js
 var path = require("path");
 
 var filepath ="https://www.jiangliang738.cn/wechat/wechatpay.php";
@@ -24,7 +24,7 @@ var filepath ="https://www.jiangliang738.cn/wechat/wechatpay.php";
 ```
 
 > ### URL模块
-```
+```js
 var url = require("url");
 
 var data ="https://www.jiangliang738.cn?name=eden&age=24";
@@ -36,7 +36,7 @@ url.parse(data);
 ```
 
 > ### fs文件模块
-```
+```js
 var fs = require("fs");
 
 fs.writeFile(路径及文件名,"utf8",function(err,data){
@@ -47,7 +47,7 @@ fs.writeFile(路径及文件名,"utf8",function(err,data){
 ```
 
 > ### http模块
-```
+```js
 var http = require("http");
 
 #创建web服务器
@@ -81,7 +81,7 @@ server.listen(8080,function(){
 
 
 > ### http模块响应头
-```
+```js
 res.writeHeader(404,"Not Found",{
 	"Content-Type" : "text/html;charset=utf7"
 })
