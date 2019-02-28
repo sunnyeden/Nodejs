@@ -24,4 +24,22 @@ node
 console.log("hello world");
 ```
 
+### 自定义模块
+
+* 定义:say.js
+```js
+function say(){
+	console.log("hello world!");
+}
+
+#(另一种方式) module.exports.say = say;
+exports.say = say;
+```
+```
+var res = require("./say");
+
+res.say();
+```
+
+
 
