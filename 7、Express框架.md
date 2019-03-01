@@ -79,3 +79,26 @@ app.listen(8080,function(){
 	})
 ```
 
+**框架路由**
+```js
+#get 路由
+app.get(请求路径，回调函数);
+
+#post路由
+app.post(请求路径，回调函数);
+
+#任意请求
+app.all(请求路径，回调函数);
+app.use(请求路径，回调函数);
+```
+**静态资源托管**
+```js
+#允许指定目录下文件被外部访问
+#语法：express.static("目录名")
+
+app.use("/public",express.static("public"));
+```
+
+
+
+
