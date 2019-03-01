@@ -62,7 +62,15 @@ app.get("/",function(req,res){
 		//send() 响应字符串（自动识别）
 		//render() 响应字符串（自动识别，指定文件中的字符串）
 
-
+		res.render("test.html"{
+			[参数1]：[值1],
+			[参数2]：[值2],
+			[参数3]：[
+				{id:1,title:"标题1"},
+				{id:2,title:"标题2"},
+				{id:3,title:"标题3"}
+			],
+			})
 	});
 
 #启动服务
