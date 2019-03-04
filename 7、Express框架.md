@@ -99,6 +99,24 @@ app.use(请求路径，回调函数);
 app.use("/public",express.static("public"));
 ```
 
+### 如何开始一个框架项目
+```
+npm init -y
+npm install express
+npm install art-template
+npm install express-art-template
+```
 
+### 模板中循环
+```
+{{each orders as order index}}
+
+{{/each}}
+```
+
+### 使用NVM切换nodejs版本,下载网址
+```
+https://github.com/coreybutler/nvm-windows/releases
+```
 
 
