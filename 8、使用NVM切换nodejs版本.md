@@ -17,6 +17,7 @@ nvm install 版本号
 
 nvm uninstall 版本号
 
+# 查看所有nodejs版本
 nvm list
 
 #切换新版本
